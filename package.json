@@ -1,0 +1,15 @@
+{
+  "name": "veloria-grand-yelahanka",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Lead-generation landing page for Veloria Grand, Yelahanka",
+  "scripts": {
+    "build": "tailwindcss -c tailwind.config.js -i src/input.css -o styles.css --minify",
+    "watch": "tailwindcss -c tailwind.config.js -i src/input.css -o styles.css --watch"
+  },
+  "devDependencies": {
+    "@tailwindcss/container-queries": "^0.1.1",
+    "@tailwindcss/forms": "^0.5.10",
+    "tailwindcss": "^3.4.19"
+  }
+}
